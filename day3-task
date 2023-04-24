@@ -1,0 +1,82 @@
+1)For the given JSON iterate over all for loop ( for , for in ,for of , for each 
+
+JSON;
+
+const obj = {
+"name": "Arun",
+"age": 22,
+"hobbies": ["riding", "swimming", "trucking"],  "address": ["1/49f17a,gudalur,niligirs,tamil nadu"]
+}
+
+FOR;
+
+const obj = {
+    "name": "Arun",
+    "age": 22,
+    "hobbies": ["riding", "swimming", "trucking"],  "address": ["1/49f17a,gudalur,niligirs,tamil nadu"]
+    
+    
+    };
+    
+    for (let prop in obj) {  if (obj.(prop)) {
+    console.log(`${prop}: ${obj[prop]}`);
+    }
+    }
+    
+    FOR In;
+
+    const obj = {
+        "name": "Arun",  "age": 22,
+        "hobbies": ["riding", "swimming", "trucking"],  "address": ["1/49f17a,gudalur,niligirs,tamil nadu"]
+        
+        for (let prop in obj) {
+        if (obj.hasOwnProperty(prop)) {
+        console.log(`${prop}: ${obj[prop]}`);
+        }
+        }
+
+        FOR Off;
+
+        
+        const obj = {
+            "name": "Arun",  "age": 22,
+            "hobbies": ["riding", "swimming", "trucking"],  "address": ["1/49f17a,gudalur,niligirs,tamil nadu"]
+        };
+        for(let value of object.values(obj)){
+            console.log(values);
+        }
+    }
+
+
+2)  Create your own resume data in json format ?
+{
+"name": "Arun",
+"email": "arunsarun9442@email.com",  "phone": "9442179137",
+"address": "1/49f17a,gudalur,niligirs,tamil nadu",
+"summary": "Experienced software engineer with expertise in Javascript  and Python programming. Proficient in full-stack development with  experience in building scalable applications.",
+"experience": "position": "Senior Software Engineer",  "employer": "orcale Company",
+"start Date": "2019-01-01",
+"end Date": "2022-01-01",
+"education": "Bachelor of Science in Computer Science",  "major": "Computer Science",
+"institution": “ DOTE University ",
+"end Date": "2018-06-01"
+"skills": "Java",  "JavaScript",  "Django",
+"React",
+"SQL“
+}
+
+
+3)  Difference between windows, screen and document in java script;
+
+Window:
+The window object represents the browser window that the web page is loaded  into. It is the top-level object in the browser's object hierarchy and provides access to a  variety of browser-related properties and methods. Some common properties and methods  of the window object include alert(), prompt(), confirm(), set timeout(), set Interval(), and  many others.
+
+Screen:
+The screen object represents the physical display that the browser is running on. It  provides information about the size and resolution of the screen, as well as the colour  depth and other display-related properties. Some common properties of the screen object  include width, height, avail Width, avail Height, color Depth, and pixel Depth.
+
+Document:
+The document object represents the web page that is currently loaded into the browser  window. It provides access to the HTML elements and other content of the web page, as well as  methods for manipulating the content and structure of the page. Some common properties and  methods of the document object include get Element By Id(), get Elements By ClassName(), get  Elements By Tag Name(), query Selector(), query Selector All(), create Element(), appendChild(),  removeChild(), and many others.
+
+
+
+    
